@@ -1,0 +1,13 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://btwy1nssia78w"]
+
+[ext_resource type="Shader" path="res://shad_Grass.gdshader" id="1_xu4gq"]
+
+[resource]
+render_priority = 0
+shader = ExtResource("1_xu4gq")
+shader_parameter/colorHigh = Color(0.2, 0.8, 0.2, 1)
+shader_parameter/colorLow = Color(0.1, 0.4, 0.1, 1)
+shader_parameter/swingEnable = true
+shader_parameter/swingLength = 0.1
+shader_parameter/swingSpeed = 1.0
+shader_parameter/swingDirection = Vector3(1, 0, 1)
