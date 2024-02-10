@@ -1,7 +1,7 @@
 shader_type spatial;
 render_mode diffuse_toon, specular_disabled, cull_disabled;
 
-uniform vec3 colorHigh: source_color = vec3(0.2, 0.8, 0.2); //color of higher part of grass
+uniform vec3 colorHigh: source_color = vec3(0.2, 0.6, 0.2); //color of higher part of grass
 uniform vec3 colorLow: source_color = vec3(0.1, 0.4, 0.1); //color of lower part of grass
 
 uniform bool enableSwing = true; //enable or disable swing
